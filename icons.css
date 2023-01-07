@@ -1,0 +1,45 @@
+.icon::before{
+	content: ' ';
+    background-size: cover;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.home::before{
+	background-image: url(icons/outline_home_white_24dp.png);
+}
+
+.home:hover::before{
+	background-image: url(icons/outline_home_black_24dp.png);
+}
+
+.location::before{
+	background-image: url(icons/outline_room_white_24dp.png);
+}
+
+.location:hover::before{
+	background-image: url(icons/outline_room_black_24dp.png);
+}
+.media::before{
+	background-image: url(icons/outline_music_note_white_24dp.png);
+}
+
+.media:hover::before{
+	background-image: url(icons/outline_music_note_black_24dp.png);
+}
+    
+.cart::before{
+    background-image: url(icons/outline_shopping_cart_white_24dp.png);
+}
+    
+.cart:hover::before{
+    background-image: url(icons/outline_shopping_cart_black_24dp.png);
+}
+.contact::before{
+    background-image: url(icons/outline_email_white_24dp.png);
+}
+    
+.contact:hover::before{
+    background-image: url(icons/outline_email_black_24dp.png);
+}
